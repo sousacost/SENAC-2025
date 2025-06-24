@@ -34,13 +34,14 @@ h2{
     padding-bottom: 5mm;
 }
 .botoes{
+    display: flex;
+    flex-direction: row;
     border: 1px solid #999;
     padding: 2mm;
-    padding-top: 5mm;
-    padding-bottom: 5mm;
     border-radius: 5mm;
 }
 a{
+   
     padding: 2mm;
     margin: 1mm;
     border: 1px solid #999;
@@ -48,4 +49,5 @@ a{
     text-decoration: none;
     color: #000000;
 }
+
 
