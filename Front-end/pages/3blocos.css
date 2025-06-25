@@ -21,20 +21,20 @@ html,body{
 .ford{
     width: 250px;
     height: 200px;
-    background-color: blueviolet;
-    margin: 5mm;
+    background-color: rgb(255, 0, 0);
+    margin: 2mm;
 }
 .teach{
     width: 250px;
     height: 200px;
     background-color: rgb(255, 0, 0);
-    margin: 5mm;
+    margin: 2mm;
 }
 .square{
     width: calc(500px + 10mm);
     height: 100px;
     background-color: rgb(3, 3, 3);
-    margin: 5mm;
+    margin: 2mm;
     
 
 }
