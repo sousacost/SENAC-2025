@@ -11,7 +11,7 @@ html, body{
 }
 
 #container{
-    background-color: rgb(145, 190, 216);
+    background-color: rgb(89, 0, 255);
     width: 100%;
     min-height: 100%;
   
@@ -36,7 +36,8 @@ h2{
 .botoes{
     display: flex;
     flex-direction: row;
-    border: 1px solid #999;
+    flex-wrap: wrap;
+    border: 1px solid #fc0202;
     padding: 2mm;
     border-radius: 5mm;
 }
@@ -44,7 +45,7 @@ a{
    
     padding: 2mm;
     margin: 1mm;
-    border: 1px solid #999;
+    border: 1px solid #000000;
     border-radius: 2mm;
     text-decoration: none;
     color: #000000;
