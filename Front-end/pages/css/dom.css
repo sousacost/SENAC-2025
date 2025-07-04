@@ -11,15 +11,15 @@ body {
     justify-content: center;
     align-content: flex-start;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: rap;
 }
 
 .aa {
     display: flex;
     flex-wrap: wrap;
-    width: 70mm;
-    height: 80mm;
-    background-color: rgb(112, 250, 0);
+    width: 300px;
+    height: auto;
+    background-color: rgb(0, 212, 250);
     border-radius: 10mm;
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -32,6 +32,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10mm;
+    flex-wrap: wrap;
 
 }
 
@@ -40,24 +42,36 @@ body {
     height: 100px;
     background-color: rgb(4, 0, 255);
     border-radius: 50%;
-    margin: 2mm;
+    margin: 5mm;
 
 }
 
 .top {
-    width: 220px;
-    height: auto;
-    background-color: rgb(102, 196, 164);
+    width: calc(300px - 10mm);
+    height: 180px;
+    background-color: rgb(0, 0, 0);
     border-radius: 5mm;
     margin: 5mm;
 
 
 }
 
-.text {
-    width: 100px;
-    height: 90px;
-    background-color: rgb(112, 250, 0);
+p{
+    width: calc(200px - 10mm);
+}
+#btn,
+.btn{
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2mm;
+    transition:background-color 1s, border-radius 1s, box-shadow;
 
-
+}
+#btn:hover,
+.btn:hover{
+    background-color: #ff0000;
+    border-radius: 10mm;
+    
+    
 }
