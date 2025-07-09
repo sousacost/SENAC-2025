@@ -8,6 +8,7 @@ html,body{
     min-height: 100vh;
     height: 100%;
     background-color: rgb(30, 255, 0);
+    
 }
 #container{
     width: 100%;
@@ -15,6 +16,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .game-container{
     width: 540px;
