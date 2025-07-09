@@ -1,5 +1,5 @@
 //json - Javascript object nonation
-
+function json(){
 var pessoa = {
 "nome": "Lena",
 "foto":"http/...",
@@ -43,3 +43,4 @@ var produto = [
 
 ]
 console.log(produtos[2]) //para acessar um item da lista ultilizando o index(lista[x])
+}

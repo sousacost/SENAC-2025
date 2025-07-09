@@ -7,6 +7,7 @@ html,body{
     width: 100%;
     min-height: 100vh;
     height: 100%;
+    background-color: rgb(30, 255, 0);
 }
 #container{
     width: 100%;
@@ -15,10 +16,27 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+.game-container{
+    width: 540px;
+    height: 540px;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 10px;
+    background-color: rgb(0, 255, 213);
+    background: linear-gradient(to right, #f700ff, #0011ff);
+}
 .square{
-    margin: 5mm;
+    margin: 3mm;
     width: 80px;
     height: 80px;
-    background-color: rgb(255, 0, 0);
-    border-radius: 50%;
+    background-color: rgb(30, 255, 0);
+    border-radius: 10%;
+    text-transform: inherit;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
