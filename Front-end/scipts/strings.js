@@ -7,6 +7,7 @@ for(let i = 0; i < palavras.length; i++){
     }
 }*/
 //alert(palavras.join('').replace('roma', 'Grécia'))
+
 var soma = 0
 for(let i = 0;i <  palavras.length;i++){
     if("o" === palavras[i]){
