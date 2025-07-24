@@ -3,5 +3,6 @@ var lines = input.split('\n');
 
 let a = parseFloat(lines[0])
 let b = parseFloat(lines[1])
-let soma = (a * 3.5) + (b * 7.5)
-console.log('MEDIA = '+(soma/11).toFixed(5))
+let c = parseFloat(lines[2])
+let soma = (a * 2) + (b * 3) + (c * 5)
+console.log('MEDIA = '+(soma/10).toFixed(1))

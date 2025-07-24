@@ -24,7 +24,7 @@ html,body{
      height: 80px;
      padding: 5px;
      padding-inline-end: 20px;
-     background-color: rgb(204, 0, 255);
+     background-color: rgb(68, 67, 68);
 }
 nav{
 
@@ -35,7 +35,7 @@ nav{
 nav a{
 
     text-decoration: none;
-    color:rgb(30, 255, 0);
+    color:rgb(255, 0, 0);
     font-size: 24px;
     
     
@@ -48,23 +48,45 @@ nav a:hover{
 
 }
 .main{
-    height: 500px;
-    width: 30%;
-    background-color: #00ff2a;
-    border-radius: 5mm;
-    box-shadow: 2px 2px 5px rgb(255, 0, 0), -2px -2px 5px rgb(255, 0, 0);
-    background-image: url('https://tse4.mm.bing.net/th/id/OIP.lZRYEgXjhypeQKHKwFeiZgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
-
-   
+    height: 1000px;
+    width:1000px;
+    background-color: #adadad;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0), -2px -2px 5px rgb(0, 0, 0);
+   background-image: url('https://tse4.mm.bing.net/th/id/OIP.DT5H9LBYcWfHMQjtGjUFHQHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
+   background-size: cover;
+   margin: 20;
 }
 
 .r{
-    height: 500px;
-    width: calc(70% - 50px);
+    
+    height: 320px;
+    width: calc(40% - 10%);
+    background-color: #00ff2a;
+    border-radius: 5mm;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0), -2px -2px 5px rgb(0, 0, 0);
+    background-image: url('https://m.media-amazon.com/images/S/pv-target-images/0e64bca6c68220f986a8e665a2d8f5f8ff60d6b7aed36c033a08cc6798a548c3.jpg');
+    background-size: cover;
+    margin: 10mm;
+   
+}
+.b{
+   height: 200px;
+    width: calc(50% - 10%);
     background-color: #00ff2a;
     border-radius: 5mm;
     box-shadow: 2px 2px 5px rgb(255, 0, 0), -2px -2px 5px rgb(255, 0, 0);
-    background-image: url('https://tse4.mm.bing.net/th/id/OIP.lZRYEgXjhypeQKHKwFeiZgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
+    background-image: url('https://br.web.img2.acsta.net/medias/nmedia/18/90/67/48/20107748.jpg');
+    background-size: cover;
+    margin: 5mm;
+}
+.rodape{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 80px;
+     padding: 5px;
+     padding-inline-end: 20px;
+     background-color: rgb(68, 67, 68);
 
-   
 }
